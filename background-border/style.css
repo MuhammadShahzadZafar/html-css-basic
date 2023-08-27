@@ -1,0 +1,15 @@
+#box1{
+    background-color: bisque;
+    color: brown;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#box3{
+    background-image: url('pic.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: azure;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
