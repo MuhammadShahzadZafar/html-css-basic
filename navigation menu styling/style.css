@@ -7,15 +7,11 @@ body{
     border-radius: 10px;
     width: 500px;
     padding: 20px 10px;
+    max-height: 300px;
 }
 .side li {
     font-size: 30px;
     border: 1px dotted grey;
-}
-.side li a {
-    text-decoration: none;
-    color: rgb(17, 248, 171);
-    background-color: rgb(225, 228, 228);
 }
 .side li a:hover{
     color: rgb(230, 30, 30);
