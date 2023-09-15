@@ -16,27 +16,30 @@
 .btn:hover{
     opacity: 0.9;
 }
-.btn-primary{
+.btn-primary, .bg-primary{
     background-color: #28a745;
     color: #fff;
 }
-.btn-secondary{
+.btn-secondary, .bg-secondary{
     background-color: #0284d0;
     color: #fff;
 }
-.btn-dark{
+.btn-dark, .bg-dark{
     background-color: #333;
     color: #fff;
 }
-.btn-light{
+.btn-light, .bg-light{
     background-color: #fff;
     color: #333;
 }
 .flex-items{
     display: flex;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center;   
+}
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
 }
 .flex-items > div {
     padding: 20px;
@@ -58,6 +61,25 @@
 .flex-coloumns .coloumn .coloumn-2{
     height:100% ;
 }
-.coloumn-1 img {
-    
+.flex-coloumns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-coloumns .coloumn-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-coloumns h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+.flex-coloumns h4 {
+    margin-bottom: 10px;
+}
+.flex-coloumns p {
+    margin: 20px 0;
 }
