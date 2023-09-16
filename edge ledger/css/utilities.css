@@ -44,6 +44,9 @@
 .flex-items > div {
     padding: 20px;
 }
+.blog .coloumn-1 .row {
+    flex-direction:row-reverse ;
+}
 .flex-coloumns .row {
     display: flex;
     flex-direction: row;
@@ -82,4 +85,28 @@
 }
 .flex-coloumns p {
     margin: 20px 0;
+}
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.section-header h2 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+.section-padding {
+    padding: 20px 20px 40px;
+}
+.flex-grid .row {
+    display: flex;
+    padding: 0 4px;
+}
+.flex-grid .coloumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
