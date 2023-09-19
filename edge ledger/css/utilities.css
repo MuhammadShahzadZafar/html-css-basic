@@ -110,3 +110,11 @@
     max-width: 25%;
     padding: 0 4px;
 }
+.flex-item{
+    display: flex;
+    align-items: center;
+}
+.flex-item div {
+    padding: 20px;
+    text-align: center;
+}
