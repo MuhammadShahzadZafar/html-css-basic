@@ -41,6 +41,10 @@ img{
     position: fixed;
     top: 0px;
     padding: 0 3px;
+    transition: 0.5s;
+}
+.navbar .top {
+    background: transparent;
 }
 .navbar ul {
     display: flex;
