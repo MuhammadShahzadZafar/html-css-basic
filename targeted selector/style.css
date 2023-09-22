@@ -1,0 +1,16 @@
+div > p {
+    background: #ddd;
+}
+div + p {
+    background-color: black;
+    color: #ddd;
+}
+a[target] {
+    background-color: red;
+    color: #ddd;
+}
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    margin-bottom: 5px;
+}
