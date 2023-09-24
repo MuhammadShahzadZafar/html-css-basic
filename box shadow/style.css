@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: coral;
+    color: #ffff;
+    box-shadow: 5px 5px 10px teal;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.9);
+}
